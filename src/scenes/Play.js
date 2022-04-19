@@ -51,7 +51,7 @@ class Play extends Phaser.Scene {
 
 
         //add new Spaceship (small/fast)
-        this.ship04 = new Spaceship(this, game.config.width + borderUISize*0.5, borderUISize*3.5, 'fastship', 0, 40).setOrigin(0, 0);
+        this.ship04 = new Fastship(this, game.config.width + borderUISize*1.5, borderUISize*3.25, 'fastship', 0, 40).setOrigin(0, 0);
 
         // define keys
         //keyF = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.F);
